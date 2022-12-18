@@ -47,11 +47,85 @@ main{
 }
 
 .foto{
-    margin: 15px;
+    margin-top: 15px;
     text-align: center;
     display: block;
 }
-img{
+.focaccia{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.2);
+}
+
+.text-2{
+    color: rgba(136, 136, 136, 0.8);
+    margin-top: 20px;
+    display: block;
+}
+
+.riga{
+    width: 720px;
+    padding-left: 20px;
+    border-left: 2px solid rgb(240, 184, 79);
+    margin: 30px auto 0 auto;
+}
+
+.text-3{
+    width: 720px;
+    display: block;
+    font-size: 20px;
+}
+
+.text-4{
+    width: 720px;
+    display: block;
+}
+
+.ingredienti{
+    width: 720px;
+    font-size: 35px;
+    border-bottom: 2px solid rgb(135, 187, 187);
+    margin: 50px auto 0 auto;
+    padding-bottom: 30px;
+}
+.no-order{
+    width: 720px;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+}
+
+ul{
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+.metodi{
+    width: 720px;
+    font-size: 35px;
+    border-bottom: 2px solid rgb(135, 187, 187);
+    margin: 50px auto 0 auto;
+    padding-bottom: 30px;
+}
+
+.order{
+    width: 720px;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+}
+ol{
+    padding-left: 60px;
+    margin-top: 20px;
+}
+
+.fine{
+    width: 720px;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+}
+
+.link{
+    color: rgb(135, 187, 187);
 }
