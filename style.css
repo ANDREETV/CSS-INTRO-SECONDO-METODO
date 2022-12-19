@@ -6,126 +6,107 @@
     font-family:'Chivo Mono', monospace ;
 }
 
-/* LOGO */ 
+/**
+* GLOBALE 
+**/
+
+a{
+    color: #177;
+}
+
+/**
+* HEADER 
+**/
 
 header{
-    width: 100%;
-    margin-top: 20px;
     text-align: center;
 }
 
-/* NAV */
-
-nav{
-    width: 100%;
-    height: 50px;
-    padding: 13px 0;
-    margin-top: 20px;
-    text-align: center;
-    background-color: rgb(242, 229, 206);
-    border-top: 2px solid rgb(240, 184, 79) ;
-    color: rgb(16, 113, 113);
+#logo{
+    width: 200px;
 }
 
-/* MAIN */
+#nav{
+    background-color: rgba(253, 251, 241, 0.8);
+    padding: 10px 0;
+    border-top: 2px solid #fee8af;
+    margin-top: 15px;
+    color: #177;
+}
+
+/**
+* MAIN 
+**/
 
 main{
-    width: 100%;
-    height:100px;
-}
-
-.titolo{
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.text-1{
-    padding: 0;
     width: 720px;
-    margin: 20px auto 0 auto;
+    margin: auto;
+    text-align: center;
 }
 
-.foto{
-    margin-top: 15px;
-    text-align: center;
-    display: block;
+.titolo h1{
+    margin: 50px 0 30px;
 }
-.focaccia{
+
+.text-1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.foto .focaccia{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .text-2{
-    color: rgba(136, 136, 136, 0.8);
-    margin-top: 20px;
-    display: block;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 15px ;
 }
 
 .riga{
-    width: 720px;
+    text-align: left;
+    border-left: 2px solid #ffebbb;
     padding-left: 20px;
-    border-left: 2px solid rgb(240, 184, 79);
-    margin: 30px auto 0 auto;
 }
 
 .text-3{
-    width: 720px;
-    display: block;
     font-size: 20px;
+    color: #b5460f;
 }
 
-.text-4{
-    width: 720px;
-    display: block;
+.ingredienti, .metodi {
+    text-align: left;
+    border-bottom:2px solid #d1f7f7;
+    margin: 60px 0 40px;
+    padding-bottom: 20px;
 }
 
-.ingredienti{
-    width: 720px;
-    font-size: 35px;
-    border-bottom: 2px solid rgb(135, 187, 187);
-    margin: 50px auto 0 auto;
-    padding-bottom: 30px;
-}
-.no-order{
-    width: 720px;
-    margin: 50px auto 0 auto;
-    font-size: 20px;
+.no-order, .order {
+    text-align: left;
+    margin-bottom: 30px;
 }
 
-ul{
+.no-order ul{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.order ol{
     padding-left: 40px;
-    margin-top: 20px;
 }
-
 li{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
-.metodi{
-    width: 720px;
-    font-size: 35px;
-    border-bottom: 2px solid rgb(135, 187, 187);
-    margin: 50px auto 0 auto;
-    padding-bottom: 30px;
+#order-li h3{
+    padding: 20px 0;
 }
 
-.order{
-    width: 720px;
-    margin: 50px auto 0 auto;
-    font-size: 20px;
-}
-ol{
-    padding-left: 60px;
-    margin-top: 20px;
-}
+/**
+* FOOTER 
+**/
 
 .fine{
+    margin: auto;
     width: 720px;
-    margin: 50px auto 0 auto;
-    font-size: 20px;
-}
-
-.link{
-    color: rgb(135, 187, 187);
 }
